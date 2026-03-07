@@ -7,7 +7,7 @@ list = [
     {"name": "hand_sanitizer", "price": 2.99, "quantity": 2},
     {"name": "pasta", "price": 8.77, "quantity": 2},
     {"name": "ketchup", "price": 2.00, "quantity": 1}
-    ]
+]
 
 for item in list:
     if item['price'] > 5:
@@ -160,5 +160,5 @@ for filename in os.listdir(folder):
             break
 
     if not copied:
-            summary.setdefault("non_classe", 0)
-            summary["non_classe"] += 1
+        summary.setdefault("non_classe", 0)
+        summary["non_classe"] += 1
