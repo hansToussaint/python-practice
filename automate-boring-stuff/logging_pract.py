@@ -102,7 +102,7 @@ def setup_logging_level(log_file="script.log"):
     logger.setLevel(logging.DEBUG)
 
     formatter = logging.Formatter(
-        fmt="%(asctime)s | %(levelname)s | %(message)s"
+        fmt="%(asctime)s | %(levelname)s | %(message)s",
         datefmt = "%Y-%m-%d %H:%M:%S"
     )
 
